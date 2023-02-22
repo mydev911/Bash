@@ -173,4 +173,19 @@ else
   echo "Source file $src_path does not exist"
 fi
 ```
+-----------------------------------------------------
+## bash script that creates a variable for a file path and checks if the file exists:
+```
+#!/bin/bash
 
+# Define the file path
+file_path="/path/to/file.txt"
+
+# Check if the file exists
+if [ -f "$file_path" ]; then
+  echo "File $file_path exists"
+else
+  echo "File $file_path does not exist"
+fi
+```
+# Follow Next File-2.md
